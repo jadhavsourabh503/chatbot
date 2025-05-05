@@ -47,7 +47,7 @@ function App() {
         <div className="input my-5 fixed bottom-0">
         <input type="text" placeholder='Ask me Something' className="text-3xl rounded-2xl py-5" value={input} onChange={(e)=>setInput(e.target.value)}/>
         <button className="bg-black text-white p-5 text-center text-2xl rounded-4xl" onClick={handleInput}>Send</button>
-        <button className="bg-black text-white p-5 text-center text-2xl rounded-4xl" onClick={()=>setChat([])}>Clear Chat</button>
+        <button className="bg-black text-white p-5 text-center text-2xl rounded-4xl" onClick={()=>setChat([])}>Clear</button>
 
         </div>
       </div>
